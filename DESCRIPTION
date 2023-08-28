@@ -1,11 +1,14 @@
 Package: Electiva3
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package to Demostrate GitHub and RStudio
 Version: 0.1.0
-Author: Who wrote it
+Author: person("Raul","Pinilla", "raula.pinillam@ecci.edu.co", role = c("aut", "cre"))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: "use_mit_license()"
 Encoding: UTF-8
 LazyData: true
+Imports:
+    dplyr
+RoxygenNote: 7.2.3
